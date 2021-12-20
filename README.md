@@ -16,11 +16,13 @@ Run commands `npm i` to install the app, followed by `npm start` to run the app 
 
 Change the title to "NASA Image Gallery".
 
-Change the title to be white and the background to be black.
+Change the title to be white and the body background to be black.
 
 The image cards should be displayed using flex and justified appropriately.
 
 Display the NASA logo that can be found in the images folder above the header, style it at 100px wide and display the logo and header side by side.
+
+See the below bonus points section for an additonal task.
 
 ### Bonus points:
 
