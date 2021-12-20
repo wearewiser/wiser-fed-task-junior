@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+body {
+  font-family: "Orbitron", sans-serif;
+  padding: 30px;
+}
+
+#root {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.nasa-gallery {
+  /* Put styles for grid here */
+}
+
+.nasa-gallery a {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 33vh;
+  text-decoration: none;
+}
+
+.nasa-gallery a > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nasa-gallery a p {
+  background-color: rgba(000, 000, 000, 0.5);
+  color: #fff;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 5px;
+  transition: all 0.4s ease;
+}
+
+.nasa-gallery a:hover p {
+  padding: 10px 5px;
+}
+
+.image-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.image-details-container > div:first-of-type {
+  width: 100%;
+}
+
+.image-details-container > div:last-of-type {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.et-go-home {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 50px;
+  }
+
+  .nasa-gallery a {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .nasa-gallery a {
+    width: calc(33% - 15px);
+  }
+
+  .image-details-container {
+    flex-wrap: nowrap;
+  }
+
+  .image-details-container > div:first-of-type {
+    width: 60%;
+    padding-right: 50px;
+  }
+
+  .image-details-container > div:last-of-type {
+    width: 40%;
+    margin-bottom: 0;
+  }
+
+  .et-go-home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
+}
