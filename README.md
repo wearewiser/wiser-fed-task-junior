@@ -6,7 +6,7 @@ This task should be completed to be considered for the Junior Front End Develope
 
 ## Instructions
 
-Clone this repo. When you have completed the task, please zip up the folder (after deleting the node modules folder), and email it to <andrew.sayward@wearewiser.com> to let us know! 
+Clone this repo. When you have completed the task, please zip up the folder (after deleting the node modules folder), and email it to <engineering@wearewiser.com> to let us know! 
 
 The starter code for this task has been generated using [Create React App](https://github.com/facebook/create-react-app).
 
@@ -31,6 +31,6 @@ When clicking on an image an 'image detail' section is shown with the image and 
 ### Notes:
 
 If you have any questions, please feel free to email 
-<andrew.sayward@wearewiser.com>.
+<engineering@wearewiser.com>.
 
 Good luck! :)
